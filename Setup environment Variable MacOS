@@ -1,0 +1,6 @@
+2020-07-18 Guillaume Hullin
+Setup environment Variable MacOS
+
+launchctl setenv RESOLVE_SCRIPT_API "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting/"
+launchctl setenv RESOLVE_SCRIPT_LIB "/Applications/DaVinci Resolve/DaVinci Resolve.app/Contents/Libraries/Fusion/fusionscript.so"
+launchctl setenv PYTHONPATH "$PYTHONPATH:$RESOLVE_SCRIPT_API/Modules/"
