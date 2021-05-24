@@ -21,7 +21,9 @@ item = 1
 
 import sys
 
+#sys.path.append("C:\ProgramData\Blackmagic Design\DaVinci Resolve\Support\Developer\Scripting\Modules")
 sys.path.append("/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting/Modules")
+
 import DaVinciResolveScript as dvr_script
 
 try:
